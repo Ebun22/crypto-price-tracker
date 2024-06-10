@@ -1,0 +1,25 @@
+{
+  "name": "crypo-price-cli",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "server.js",
+  "bin": {
+    "coindex": "./bin/coindex.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "colors": "^1.4.0",
+    "commander": "^12.1.0",
+    "configstore": "^6.0.0",
+    "express": "^4.19.2",
+    "inquirer": "^9.2.23"
+  }
+}
